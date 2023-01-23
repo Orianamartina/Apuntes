@@ -114,3 +114,38 @@ body{
     
     
 }
+
+@media (max-width: 412px){
+    body{
+        max-width: 412px;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .Indice{
+        max-width: 70%;
+        margin: auto;
+        
+
+    }
+    .PrepCourse{
+        max-width: 90%;
+        margin: auto;
+        
+    }
+    .botonesprep{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .boton{
+        margin-bottom: 10px;
+        max-height: 20px;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .TituloChico{
+        font-size: 40px;
+    }
+}
