@@ -44,7 +44,7 @@ body{
 .titulo{
     width: 50%;
     margin: auto;
-    background-color: #F8EAD1;
+    
     font-family: var(--strongerFont);
     
 }
@@ -56,9 +56,11 @@ body{
     max-width: 80%;
     padding: 50px;
     margin: auto;
-    
+    margin-top: 60px;
+    background-color: #F8EAD1;
     font-family: var(--strongerFont);
     justify-content: space-between;
+    border-radius: 34px/28px;
    
 }
 .botonesprep{
