@@ -58,3 +58,9 @@ h1{
     margin-bottom: 30px;
     max-width: 90%;
  }
+
+ @media (max-width: 1000px){
+    .ApuntesObjetos{
+        width: 80%;
+    }
+}
