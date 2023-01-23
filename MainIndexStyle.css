@@ -142,9 +142,19 @@ body{
         max-height: 20px;
         font-size: 15px;
         padding: 5px;
+        max-width: 40%
 
     }
     .TituloChico{
         font-size: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    .TituloChico{
+        font-size: 30px;
+    }
+    .boton{
+        max-width: 70%;
     }
 }
