@@ -12,6 +12,9 @@
     --Lavender: #C78EDF;
     --LavenderBluish: #8E9EDF ;
 
+
+    --ButtonTeal: #8EDFD4;
+
     /* Fonts */
 
     --LightFont: 'Lexend Deca', sans-serif;
@@ -32,39 +35,80 @@ a:active { text-decoration: none; }
 
 body{
     background-color: black;
+    background-image: url("94b15730f9b1d2587e9a36fc9d2a9465.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    
 }
 
 .titulo{
     width: 50%;
     margin: auto;
     background-color: #F8EAD1;
+    font-family: var(--strongerFont);
     
 }
 
-.boton{
+.PrepCourse{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Cream);
+    max-width: 80%;
+    padding: 50px;
+    margin: auto;
+    
+    font-family: var(--strongerFont);
+    justify-content: space-between;
+   
+}
+.botonesprep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.TituloChico{
     display: block;
+    font-family: var(--strongerFont);
+    font-size: 50px;
+    margin: auto;
+    align-self: center;
+
+}
+
+
+
+.boton{
+    display: inline-block;
     border-radius: 34px/28px;
-    max-width: 200px;
+    max-width: 100px;
     width: 50%;
-    max-height: 70px;
+    max-height: 60px;
     padding: 18px;
     margin-top: 20px;
-    margin-left: auto;
     margin-right: auto;
-    background-color: var(--Lavender);
+    background-color: var(--ButtonTeal);
     font-family: var(--LightFont);
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    border: 3px solid --Lavender;
+    border: 3px solid var(--ButtonTeal);
+    color: #714E1B;
+    margin: auto;
     
 }
 .boton:hover{
-    border: 5px solid --Cream;
+    border: 3px solid var(--Cream);
     color: var(--Cream);
 }
 
 .Indice{
-    width:50%;
+    width: 100%;
     margin: auto;
+    
+    
+    
     
 }
