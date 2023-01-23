@@ -75,7 +75,7 @@ body{
 .TituloChico{
     display: block;
     font-family: var(--strongerFont);
-    font-size: 50px;
+    font-size: 6vw;
     margin: auto;
     align-self: center;
 
@@ -145,15 +145,10 @@ body{
         max-width: 40%
 
     }
-    .TituloChico{
-        font-size: 40px;
-    }
+    
 }
-
 @media (max-width: 500px){
-    .TituloChico{
-        font-size: 30px;
-    }
+   
     .boton{
         max-width: 70%;
     }

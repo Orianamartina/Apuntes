@@ -40,7 +40,7 @@ body{
 
 }
 h1{
-    font-size:50px;
+    font-size:15vp;
     font-family: var(--strongerFont);
     text-align: center;
     
@@ -49,6 +49,7 @@ h1{
     text-align: center;
     font-family: var(--LightFont);
     margin: 40px;
+    font-size: 5vw;
 
 }
 .img1{
@@ -60,7 +61,8 @@ h1{
  }
 
  @media (max-width: 1000px){
-    .ApuntesObjetos{
-        width: 80%;
+    .apuntes{
+        max-width: 90%;
+        
     }
 }
