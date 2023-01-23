@@ -18,29 +18,30 @@
     --strongerFont: 'Big Shoulders Display', cursive;
 
 }
+ /* celular */
 
 body{
     background-color: black;
-    background-image: url("../94b15730f9b1d2587e9a36fc9d2a9465.jpg");
-}
-
-.container{
-    display: flex;
-    align-items: center;
+    background-image: url("94b15730f9b1d2587e9a36fc9d2a9465.jpg");
+    background-repeat:repeat; 
+    background-size: 25%;
+    
     
 }
+
 
 .apuntes{
-    max-width: 50%;
+    width: 90%;
     margin: auto;
     background-color: #F8EAD1;
-    
-    
-    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 
 }
 h1{
-    font-size: 7vw;
+    font-size: 10vw;
     font-family: var(--strongerFont);
     text-align: center;
     
@@ -57,12 +58,12 @@ h1{
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: 90%;
- }
+    max-width: 70%;
+}
 
- @media (max-width: 1000px){
-    .apuntes{
-        max-width: 90%;
-        
+@media (min-width: 700px){
+    h1{
+        font-size: 5vw;
     }
 }
+
