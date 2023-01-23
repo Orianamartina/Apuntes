@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="../../ApuntesStyle.css">
+</head>
+<body>
+    <div class="apuntes">
+
+       <h1>
+            Javascript avanzado II
+        </h1>
+        <h1>
+            Closures
+        </h1>
+
+        <div class="text1">
+            Se genera cuando una funcion devuelve otra funcion
+            Una closure es como una "nube" en donde se almacenan cosas de un contexto de ejecucion que ya se termino,
+            pero solo tiene acceso a ella la funcion hija de ese contexto.
+            Por ejemplo se pueden guardar objetos privados que solo la funcion hija puede acceder.
+
+        </div>
+
+        <img class="img1" src="JA2.1.jpg" alt="">
+        <img class="img1" src="JA2.2.jpg" alt="">
+        <img class="img1" src="JA2.3.jpg" alt="">
+
+        <h1>
+            Bind, Call and Apply.
+        </h1>
+
+        <div class="text1">
+            Son 3 metodos que nos permiten manejar el this.
+        </div>
+        
+        <h1>
+            Bind 
+        </h1>
+        <img class="img1" src="JA2.4.jpg" alt="">
+        <div class="text1">
+            El contexto de ejecucion del bind se termina, y devuelve una funcion, y el this queda apuntando hacia el objeto que le indique.
+            Cambia el this por el objeto que le indicamos en una funcion nueva.
+            Bind ademas acepta mas parametros, el primero siempre es el "this", los siguientes sirven para bindear parametros de una funcion.
+            Esto se conoce como function currying
+        </div>
+        <img class="img1" src="JA2.5.jpg" alt="">
+
+        <h1>
+            Call
+        </h1>
+
+        <div class="text1">
+            El call es lo mismo que Bind, redirige el this, pero no devuelve una funcion.
+        </div>
+        <img class="img1" src="JA2.6.jpg" alt="">
+        <h1>
+            Apply
+        </h1>
+        <div class="text1">
+            Apply funciona igual que call pero recive los argumentos en forma de arreglo.
+        </div>
+        <img class="img1" src="JA2.7.jpg" alt="">
+    </div>
+    
+
+
+</body>
