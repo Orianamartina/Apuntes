@@ -39,6 +39,7 @@ body{
     background-repeat: repeat;
     background-size: 25%;
     
+    
 }
 .TituloChico{
     font-family: var(--strongerFont);
@@ -52,6 +53,10 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
     
     
